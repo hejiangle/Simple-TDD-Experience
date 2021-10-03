@@ -1,5 +1,4 @@
 using System;
-using System.Transactions;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -32,7 +31,8 @@ public class LedgerService {
 
         return _transactions.Where(transaction => 
             transaction.CreatedAt >= lastMonday
-            && transaction.CreatedAt <= lastSunday    
+            && transaction.CreatedAt <= lastSunday
+            && transaction.Amount < 0    
         ).ToList();
     }
 }
