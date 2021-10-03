@@ -28,7 +28,11 @@ public class LedgerService {
 
     public List<Transaction> GetLastWeekCostTransactions() {
         var lastMonday = DateTime.Today.AddDays(-(int)DateTime.Today.DayOfWeek - 6);
+        var lastSunday = DateTime.Today.AddDays(-(int)DateTime.Today.DayOfWeek);
 
-        return _transactions.Where(transaction => transaction.CreatedAt >= lastMonday).ToList();
+        return _transactions.Where(transaction => 
+            transaction.CreatedAt >= lastMonday
+            && transaction.CreatedAt <= lastSunday    
+        ).ToList();
     }
 }
