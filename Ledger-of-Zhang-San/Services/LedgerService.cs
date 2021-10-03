@@ -1,3 +1,5 @@
+using System;
+using System.Transactions;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -18,5 +20,15 @@ public class LedgerService {
 
     public decimal CalculateLedgerTotalAmount(){
         return _transactions.Sum(transaction => transaction.Amount);
+    }
+
+    public decimal CalculateLastWeekCost(){
+        return GetLastWeekCostTransactions().Sum(transaction => transaction.Amount);
+    }
+
+    public List<Transaction> GetLastWeekCostTransactions() {
+        var lastMonday = DateTime.Today.AddDays(-(int)DateTime.Today.DayOfWeek - 6);
+
+        return _transactions.Where(transaction => transaction.CreatedAt >= lastMonday).ToList();
     }
 }
