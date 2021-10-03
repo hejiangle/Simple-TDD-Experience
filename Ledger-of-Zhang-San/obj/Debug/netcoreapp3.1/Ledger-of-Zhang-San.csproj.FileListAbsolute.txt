@@ -1,0 +1,10 @@
+/Users/jlhe/HJL/Simple-TDD-Experience/Ledger-of-Zhang-San/bin/Debug/netcoreapp3.1/Ledger-of-Zhang-San.deps.json
+/Users/jlhe/HJL/Simple-TDD-Experience/Ledger-of-Zhang-San/bin/Debug/netcoreapp3.1/Ledger-of-Zhang-San.runtimeconfig.json
+/Users/jlhe/HJL/Simple-TDD-Experience/Ledger-of-Zhang-San/bin/Debug/netcoreapp3.1/Ledger-of-Zhang-San.runtimeconfig.dev.json
+/Users/jlhe/HJL/Simple-TDD-Experience/Ledger-of-Zhang-San/bin/Debug/netcoreapp3.1/Ledger-of-Zhang-San.dll
+/Users/jlhe/HJL/Simple-TDD-Experience/Ledger-of-Zhang-San/bin/Debug/netcoreapp3.1/Ledger-of-Zhang-San.pdb
+/Users/jlhe/HJL/Simple-TDD-Experience/Ledger-of-Zhang-San/obj/Debug/netcoreapp3.1/Ledger-of-Zhang-San.csprojAssemblyReference.cache
+/Users/jlhe/HJL/Simple-TDD-Experience/Ledger-of-Zhang-San/obj/Debug/netcoreapp3.1/Ledger-of-Zhang-San.AssemblyInfoInputs.cache
+/Users/jlhe/HJL/Simple-TDD-Experience/Ledger-of-Zhang-San/obj/Debug/netcoreapp3.1/Ledger-of-Zhang-San.AssemblyInfo.cs
+/Users/jlhe/HJL/Simple-TDD-Experience/Ledger-of-Zhang-San/obj/Debug/netcoreapp3.1/Ledger-of-Zhang-San.dll
+/Users/jlhe/HJL/Simple-TDD-Experience/Ledger-of-Zhang-San/obj/Debug/netcoreapp3.1/Ledger-of-Zhang-San.pdb
